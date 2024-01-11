@@ -1,0 +1,379 @@
+/*CUERPO*/
+
+body {
+    background-color: beige;
+}
+
+/*CABEZA*/
+
+.cabezal {
+    display: block;
+    border-bottom: 1px rgb(194, 181, 181) solid;
+}
+
+.ropita {
+    padding-bottom: 10px;
+    margin: 0.3em;
+    display: inline;
+    position: relative;
+    bottom: 1em;
+}
+
+.direcc {
+    padding-bottom: 1em;
+    margin: 0.3em;
+    display: inline;
+    position: relative;
+    bottom: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.imgropita {
+    height: 3em;
+    width: 3em;
+}
+
+.igimg {
+    height: 50px;
+    border-radius: 200px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.gglmps {
+    height: 3em;
+    width: 3em;
+}
+
+.direcc:hover {
+    border-bottom: 1px black solid;
+    padding-bottom: 1px;
+}
+
+/*BIENVENIDA*/
+
+.principal {
+    border: 2px #bba5a7 solid;
+    height: 200px;
+    width: 500px;
+    margin: auto;
+    margin-top: 8em;
+}
+
+.txt-principal {
+    text-align: center;
+    margin: auto;
+    margin-top: 2.5em;
+    font-size: 1.2em;
+    color: #c6afb1;
+}
+
+.buzo {
+    padding-left: 150px;
+    height: 300px;
+    position: relative;
+    bottom: 50px;
+}
+
+/*BOTON*/
+
+.boton {
+    padding-left: 0.4em;
+    margin-left: 22em;
+    background-color: rgb(255, 0, 0)7, 107, 65); 
+    position: relative;
+    top: 8em;
+    left: 24.2em;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.7em;
+    border-radius: 1em;
+}
+
+.boton:hover {
+    color: #f0ecec;
+    background-color: #c57d56;
+}
+
+/*FONT*/
+
+* {
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+/*TITULO 'PRODUCTOS'*/
+
+.tit {
+    height: 5em;
+    border-bottom: 1px rgb(194, 181, 181) solid;
+}
+
+.txtit {
+    text-align: center;
+    padding-top: 0.7em;
+    font-size: 1.7em;
+}
+
+/*FOTOS DE PRODUCTOS*/
+
+.s0 {
+    display: flex;
+    flex: wrap;
+    padding: 10px;
+    margin-left: 14.3em;
+}
+
+.d1 {
+    height: 325px;
+    width: 180px;
+    background-color: #ae887b;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 1px black solid; 
+    border-radius: 1.5em;
+}
+
+.ft1 {
+    height: 190px;
+    margin-top: 1em;
+    margin-left: 0.9em;
+    border: 1px black dashed;
+}
+
+.d1-0 {
+    text-align: center;
+    margin: auto;
+    padding: 0.3em;
+}
+
+.d2 {
+    height: 325px;
+    width: 180px;
+    background-color: #ae887b;
+    margin-top: 3em;
+    margin-left: 1em;
+    border: 1px black solid; 
+    border-radius: 1.5em;
+}
+
+.ft2 {
+    height: 190px;
+    margin-top: 1em;
+    margin-left: 0.9em;
+    border: 1px black dashed;
+    display: inline;
+}
+
+.d2-0 {
+    text-align: center;
+    margin: auto;
+    padding: 0.3em;
+    display: inline;
+}
+
+.d3 {
+    height: 325px;
+    width: 180px;
+    background-color: #ae887b;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 1px black solid; 
+    border-radius: 1.5em;
+}
+
+.ft3 {
+    height: 190px;
+    margin-top: 1em;
+    margin-left: 0.9em;
+    border: 1px black dashed;
+}
+
+.d3-0 {
+    text-align: center;
+    margin: auto;
+    padding: 0.3em;
+}
+
+.d4 {
+    height: 325px;
+    width: 180px;
+    background-color: #ae887b;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 1px black solid; 
+    border-radius: 1.5em;
+}
+
+.ft4 {
+    height: 190px;
+    margin-top: 1em;
+    margin-left: 0.9em;
+    border: 1px black dashed;
+}
+
+.d4-0 {
+    text-align: center;
+    margin: auto;
+    padding: 0.3em;
+}
+
+.d5 {
+    height: 325px;
+    width: 180px;
+    background-color: #ae887b;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 1px black solid; 
+    border-radius: 1.5em;
+}
+
+.ft5 {
+    height: 190px;
+    margin-top: 1em;
+    margin-left: 0.9em;
+    border: 1px black dashed;
+}
+
+.d5-0 {
+    text-align: center;
+    margin: auto;
+    padding: 0.3em;
+}
+
+/*SECCIONES ROPA*/
+
+.L1 {
+    display: block;
+    height: 5em;
+    background-color: #b85c4f;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.L2 {
+    display: block;
+    height: 5em;
+    background-color: #b85c4f;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.L3 {
+    display: block;
+    height: 5em;
+    background-color: #b85c4f;
+}
+
+/*LINKS ROPA*/
+
+.L1-0 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 3em;
+    color: #fdb975;
+    margin-left: 13.4em;
+}
+
+.L2-0 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 3em;
+    color: #fdb975;
+    margin-left: 14.3em;
+}
+
+.L3-0 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 3em;
+    color: #fdb975;
+    margin-left: 12.2em;
+}
+
+/*TITULOS 'PANTALONES'*/
+.titulo-p {
+    height: 5em;
+    border-bottom: 1px rgb(194, 181, 181) solid;
+}
+
+.texto-p {
+    text-align: center;
+    padding-top: 0.7em;
+    font-size: 1.7em;
+}
+
+/*PRODUCTOS 'PANTALONES'*/
+
+.s0w {
+    display: flex;
+    flex: wrap;
+    padding: 10px;
+    margin-left: 2em;
+}
+
+.d1w {
+    height: 375px;
+    width: 230px;
+    background-color: #ae887b;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 1px black solid; 
+    border-radius: 1.5em;
+}
+
+.ft1w {
+    height: 220px;
+    margin-left: 1.7em;
+    margin-top: 0.5em;
+    border: 1px black dashed;
+}
+
+.d1-0w {
+    text-align: center;
+    margin: auto;
+    padding: 0.3em;
+}
+
+.d1-0w3 {
+    text-align: center;
+    margin: auto;
+    padding: 0.3em;
+    font-size: 1.3em;
+}
+
+.d1-04 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.9em;
+    margin-left: 5.99em;
+    color: black;
+    padding: 1px 1px 1px 1px;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.d1-04:hover {
+    color:white;
+    background-color: rgb(116, 105, 105);
+}
+
+.btnvlt {
+    margin-left: 45em;
+    text-decoration: none;
+    padding: 2px 2px 2px 2px;
+    background-color: rgb(185, 180, 173);
+    color: white;
+    border-radius: 1.5em;
+    position: relative;
+    top: 5em;
+}
+
