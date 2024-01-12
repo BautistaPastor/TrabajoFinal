@@ -140,6 +140,50 @@ figure img {
     background-color: rgb(223, 220, 220);
 }
 
+/*FOOTER*/
+
+footer {
+    border-top: 2px solid rgb(185, 185, 168);
+}
+
+footer div {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(1, 90px);
+    text-align: center;
+    align-items: center;
+}
+
+footer p {
+    color: rgb(145, 145, 145);
+}
+
+.grid div img {
+    width: 30px;
+}
+
+.img1 {
+    position: relative;
+    top: 20px;
+    left: -260px;
+    border-radius: 6px;
+}
+
+.img2 {
+    position: relative;
+    top: 20px;
+    left: -650px;
+    
+}
+
+.derechos p {
+    font-size: 13px;
+}
+
+.redes p {
+    display: block;
+}
+
 /*FONT*/
 
 * {
