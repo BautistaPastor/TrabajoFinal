@@ -127,7 +127,6 @@ figure img {
 
 .cboton {
     text-align: center;
-
 }
 
 .boton { 
@@ -388,6 +387,22 @@ footer p {
     display: block;
 }
 
+.cboton1 {
+    text-align: center;
+}
+
+.boton1 { 
+    position: relative;
+    bottom: 398px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(226, 213, 213);
+    border-radius: 8px;
+    padding: 3px;
+    text-align: center;
+    align-items: center;
+}
+
 /*Mobile View*/
 
 @media only screen and (max-width: 500px) {
@@ -397,13 +412,101 @@ footer p {
         display: none;
     }
 
-    /*Index*/
-    .principal {
-        width: 300px;
-        height: 500px;
+    .buzo {
+        display: none;
     }
 
-    .txt-principal {
-        
+    /*Header*/
+    .cabezal {
+      border: none;
+      width: 300px;
     }
+    
+    .direcc {
+        font-size: 12px;
+    }
+
+    .ropita {
+        font-size: 12px;
+    }
+    
+    /*Index*/
+    /*Main*/
+    .principal {
+        width: 295px;
+        height: 370px;
+    }
+
+    .ctxtp {
+        margin: auto;
+    }
+    
+    .txt-principal {
+        width: 260px;
+        position: relative;
+        right: 10px;
+        bottom: 10px;
+        font-size: 17px;
+    }
+
+    .img-fluid {
+        height: 225px;
+        width: 325px;
+        margin: auto;
+    }
+
+    .figure-caption {
+        font-size: 10px;
+        width: 300px;
+    }
+
+    .boton {
+        position: relative;
+        top: 25px;
+    }
+ 
+    /*Footer*/
+    .grid {
+        grid-template-columns: repeat(1, 300px);
+        text-align: center;
+        margin: auto;
+        align-items: center;
+
+    }
+
+    footer {
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    /*Pantalones*/
+
+    .s0w {
+        width: 90px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 250px);
+    }
+
+    .s0w {
+        position: relative;
+        right: 80px;
+    }
+
+    .srem {
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .titulo-p {
+        border: none;
+        width: 350px;
+    }
+
+    .cboton1 {
+        position: relative;
+        top: 23px;
+    }
+
 }
