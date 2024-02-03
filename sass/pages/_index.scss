@@ -1,0 +1,45 @@
+body {
+    main {
+        border: 2px #bba5a7 solid;
+        width: 500px;
+        height: 200px;
+        margin: auto;
+        margin-top: 8em;
+        text-align: center;
+        align-items: center;
+        display: flex;
+            .ctxtp {
+                align-items: center;
+                text-align: center;
+                padding: 0%;
+                .txt-principal {
+                    text-align: center;
+                    margin-top: 2.5em;
+                    font-size: 1.2em;
+                    color: #c6afb1;
+                    margin-bottom: 45.5px;   
+                    font-size: 16px;
+                    margin-left: 30px;
+                }
+                .txt-principal:last-child {
+                    margin-top: -50px;
+                }
+            }
+            .cbuzo {
+                text-align: center;
+                align-items: center;
+                margin-right: 20px;
+            }
+    }
+            figure {
+                img {
+                    width: 400px;
+                    height: 200px;
+                    border: 1px solid black;
+                    border-radius: 9px;
+                }
+            }
+            .figura-centrada {
+                margin-top: 100px;
+            }
+}

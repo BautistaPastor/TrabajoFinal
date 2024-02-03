@@ -1,0 +1,16 @@
+body {
+    section {
+        .cboton {
+        text-align: center;
+            .boton {
+                @extend %boton-comun;
+                margin: 200px;
+                
+            &:hover {
+                color: #000000;
+                background-color: rgb(223, 220, 220);
+                }
+            }
+        }
+    }
+}

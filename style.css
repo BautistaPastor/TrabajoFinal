@@ -1,5 +1,125 @@
-main .ctxtp {
-  background-color: red;
+body header {
+  display: block;
+  border-bottom: 1px rgb(194, 181, 181) solid;
+}
+body a .imgropita {
+  height: 3em;
+  width: 3em;
+}
+body .direcc {
+  padding-bottom: 1em;
+  margin: 0.3em;
+  display: inline;
+  text-decoration: none;
+  color: black;
+}
+body .direcc:hover {
+  margin-left: 12px;
+  margin-right: 12px;
+  transition: 1.5s;
+}
+body .direcc:not(:hover) {
+  margin-left: 0;
+  margin-right: 0;
+  transition: 1s;
+}
+body a .ropita {
+  padding-bottom: 10px;
+  margin: 0.3em;
+  display: inline;
+}
+body a .ropita:hover {
+  margin-left: 12px;
+  margin-right: 12px;
+  transition: 1.5s;
+}
+body a .ropita:not(:hover) {
+  margin-left: 0;
+  margin-right: 0;
+  transition: 1s;
+}
+body .gglmps {
+  height: 3em;
+  width: 3em;
+}
+body .ropita {
+  padding-bottom: 10px;
+  margin: 0.3em;
+  display: inline;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(245, 245, 209) !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Dhurjati", sans-serif;
+  font-family: "Kanit", sans-serif;
+}
+
+body main {
+  border: 2px #bba5a7 solid;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  margin-top: 8em;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+body main .ctxtp {
+  align-items: center;
+  text-align: center;
+  padding: 0%;
+}
+body main .ctxtp .txt-principal {
+  text-align: center;
+  margin-top: 2.5em;
+  font-size: 1.2em;
+  color: #c6afb1;
+  margin-bottom: 45.5px;
+  font-size: 16px;
+  margin-left: 30px;
+}
+body main .ctxtp .txt-principal:last-child {
+  margin-top: -50px;
+}
+body main .cbuzo {
+  text-align: center;
+  align-items: center;
+  margin-right: 20px;
+}
+body figure img {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 9px;
+}
+body .figura-centrada {
+  margin-top: 100px;
+}
+
+body section .cboton .boton {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(226, 213, 213);
+  border-radius: 8px;
+  padding: 3px;
+  text-align: center;
+  align-items: center;
+}
+
+body section .cboton {
+  text-align: center;
+}
+body section .cboton .boton {
+  margin: 200px;
+}
+body section .cboton .boton:hover {
+  color: #000000;
+  background-color: rgb(223, 220, 220);
 }
 
 /*# sourceMappingURL=style.css.map */
