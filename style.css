@@ -133,6 +133,64 @@ body .figura-centrada {
   margin-top: 100px;
 }
 
+.tit {
+  height: 5em;
+  border-bottom: 1px rgb(194, 181, 181) solid;
+}
+.tit .txtit {
+  text-align: center;
+  padding-top: 0.7em;
+  font-size: 1.7em;
+}
+
+.s0 {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  position: absolute;
+  right: 50%;
+}
+.s0 .d1 {
+  height: 325px;
+  width: 180px;
+  background-color: #ae887b;
+  margin-top: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border: 1px black solid;
+  border-radius: 1.5em;
+}
+.s0 .d1 .ft1 {
+  height: 160px;
+  margin-top: 10px;
+  border: 1px black solid;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+.s0 .d1 .d1-0 {
+  text-align: center;
+  margin: auto;
+  padding: 0.3em;
+}
+
+.s1 {
+  margin-top: 80px;
+}
+.s1 .L1 {
+  display: block;
+  height: 5em;
+  background-color: #b85c4f;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.s1 .L1 .L1-0 {
+  text-decoration: none;
+  font-size: 3em;
+  color: #fdb975;
+  text-align: center;
+  margin-left: 14.3em;
+}
+
 body section .cboton .boton {
   text-decoration: none;
   color: black;
