@@ -28,8 +28,8 @@
             margin-top: 10px;
             border: 1px black solid;
             margin: auto;
-            align-items: center;
-            text-align: center;
+            position: relative;
+            top: 7px;
         }
         .d1-0 {
             text-align: center;
@@ -40,16 +40,7 @@
     }
 }
 
-.srem {
-    font-size: 15px;
-    width: 700px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 420px;
-    border: 1px solid black;
-}
+
 
 .s1 {
     margin-top: 450px;

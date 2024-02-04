@@ -165,24 +165,13 @@ body .figura-centrada {
   margin-top: 10px;
   border: 1px black solid;
   margin: auto;
-  align-items: center;
-  text-align: center;
+  position: relative;
+  top: 7px;
 }
 .s0 .d1 .d1-0 {
   text-align: center;
   margin: auto;
   padding: 0.3em;
-}
-
-.srem {
-  font-size: 15px;
-  width: 700px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 420px;
-  border: 1px solid black;
 }
 
 .s1 {
@@ -212,7 +201,57 @@ body .figura-centrada {
   margin-left: 14.3em;
 }
 
-.cboton .boton {
+.titulo-p {
+  height: 5em;
+  border-bottom: 1px rgb(194, 181, 181) solid;
+  display: flex;
+}
+.titulo-p .texto-p {
+  text-align: center;
+  font-size: 1.7em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.s0w {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  padding: 10px;
+  margin: auto;
+  position: relative;
+  right: 550px;
+  border: none;
+}
+.s0w .d1w {
+  height: 375px;
+  width: 230px;
+  background-color: #ae887b;
+  margin-top: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border: 1px black solid;
+  border-radius: 1.5em;
+}
+.s0w .d1w .d1-0w3 {
+  text-align: center;
+  margin: auto;
+  padding: 0.3em;
+  font-size: 20px;
+}
+.s0w .d1w .ft1w {
+  height: 220px;
+  border: 1px black dashed;
+  margin: auto;
+  position: relative;
+  top: 10px;
+}
+.s0w .d1w .d1-0w {
+  text-align: center;
+  margin: auto;
+  padding: 0.3em;
+}
+
+.cbotonp .botonp, .cboton .boton {
   text-decoration: none;
   color: black;
   background-color: rgb(226, 213, 213);
@@ -236,6 +275,46 @@ body .figura-centrada {
 .cboton .boton:not(:hover) {
   color: black;
   transition: 0.5s;
+}
+
+.cbotonp {
+  text-align: center;
+}
+.cbotonp .botonp {
+  margin: 270px;
+  border: 1px solid black;
+  position: relative;
+  right: 192px;
+}
+.cbotonp .botonp:hover {
+  color: grey;
+  transition: 1s;
+}
+.cbotonp .botonp:not(:hover) {
+  color: black;
+  transition: 0.5s;
+}
+
+.srem {
+  font-size: 15px;
+  width: 700px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 420px;
+  border: 1px solid black;
+}
+
+.sremp {
+  font-size: 15px;
+  width: 700px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 270px;
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=style.css.map */

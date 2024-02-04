@@ -12,6 +12,26 @@
                 &:not(:hover) {
                     color: black;
                     transition: .5s;
-                }
-            }
         }
+     }
+}
+
+.cbotonp {
+    text-align: center;
+        .botonp {
+            @extend %boton-comun;
+            margin: 270px;
+            border: 1px solid black;
+            position: relative;
+            right: 192px;
+            
+            &:hover {
+                color: grey;
+                transition: 1s;
+            }
+            &:not(:hover) {
+                color: black;
+                transition: .5s;
+            }
+    }
+}

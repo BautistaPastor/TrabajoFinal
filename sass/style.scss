@@ -1,16 +1,18 @@
-// Layout
+    // Layout
 @import "layout/_header.scss";
 @import "layout/_body.scss";
 @import "layout/_footer.scss";
 
-// Pages
+    // Pages
 @import "pages/_index.scss";
 @import "pages/_productos.scss";
+@import "pages/_htmls.scss";
 
-// Abstract
+    // Abstract
 @import "abstract/_extend.scss";
 @import "abstract/_mixin.scss";
 
 
-// Components 
-@import "components/_boton.scss"
+    // Components 
+@import "components/_boton.scss";
+@import "components/_srem.scss"
