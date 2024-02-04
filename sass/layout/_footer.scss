@@ -1,0 +1,35 @@
+footer {
+    border-top: 2px solid rgb(185, 185, 168);
+    margin-top: 20px;
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(1, 90px);
+        text-align: center;
+        align-items: center;
+        .redes {
+            p {
+                color: rgb(145, 145, 145);
+                display: block;
+            }
+            .img1 {
+                width: 30px;
+                position: relative;
+                bottom: 13px;
+                border-radius: 6px;
+            }
+            .img2 {
+                width: 30px;
+                position: relative;
+                bottom: 13px;
+                border-radius: 6px;
+            }
+        }
+        .derechos {
+            p {
+                font-size: 13px;
+                color: rgb(145, 145, 145);
+            }
+        }
+    }
+}
