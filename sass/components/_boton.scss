@@ -1,16 +1,17 @@
-body {
-    section {
-        .cboton {
+.cboton {
         text-align: center;
             .boton {
                 @extend %boton-comun;
                 margin: 200px;
+                border: 1px solid black;
                 
-            &:hover {
-                color: #000000;
-                background-color: rgb(223, 220, 220);
+                &:hover {
+                    color: grey;
+                    transition: 1s;
+                }
+                &:not(:hover) {
+                    color: black;
+                    transition: .5s;
                 }
             }
         }
-    }
-}

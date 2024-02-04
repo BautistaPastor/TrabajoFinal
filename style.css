@@ -148,6 +148,7 @@ body .figura-centrada {
   grid-template-columns: repeat(5, 200px);
   position: absolute;
   right: 50%;
+  border: none;
 }
 .s0 .d1 {
   height: 325px;
@@ -173,8 +174,19 @@ body .figura-centrada {
   padding: 0.3em;
 }
 
+.srem {
+  font-size: 15px;
+  width: 700px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 420px;
+  border: 1px solid black;
+}
+
 .s1 {
-  margin-top: 80px;
+  margin-top: 450px;
 }
 .s1 .L1 {
   display: block;
@@ -182,6 +194,15 @@ body .figura-centrada {
   background-color: #b85c4f;
   margin-bottom: 1em;
   margin-top: 1em;
+  border: 1px solid black;
+}
+.s1 .L1:hover {
+  background-color: #8a514a;
+  transition: 1s;
+}
+.s1 .L1:not(:hover) {
+  background-color: #b85c4f;
+  transition: 0.7s;
 }
 .s1 .L1 .L1-0 {
   text-decoration: none;
@@ -191,7 +212,7 @@ body .figura-centrada {
   margin-left: 14.3em;
 }
 
-body section .cboton .boton {
+.cboton .boton {
   text-decoration: none;
   color: black;
   background-color: rgb(226, 213, 213);
@@ -201,15 +222,20 @@ body section .cboton .boton {
   align-items: center;
 }
 
-body section .cboton {
+.cboton {
   text-align: center;
 }
-body section .cboton .boton {
+.cboton .boton {
   margin: 200px;
+  border: 1px solid black;
 }
-body section .cboton .boton:hover {
-  color: #000000;
-  background-color: rgb(223, 220, 220);
+.cboton .boton:hover {
+  color: grey;
+  transition: 1s;
+}
+.cboton .boton:not(:hover) {
+  color: black;
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=style.css.map */
