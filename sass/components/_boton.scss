@@ -1,19 +1,20 @@
 .cboton {
-        text-align: center;
-            .boton {
-                @extend %boton-comun;
-                margin: 200px;
-                border: 1px solid black;
-                
-                &:hover {
-                    color: grey;
-                    transition: 1s;
-                }
-                &:not(:hover) {
-                    color: black;
-                    transition: .5s;
-        }
-     }
+    text-align: center;
+        .boton {
+            @extend %boton-comun;
+            margin:auto;
+            border: 1px solid black;
+            
+            
+            &:hover {
+                color: grey;
+                transition: 1s;
+            }
+            &:not(:hover) {
+                color: black;
+                transition: .5s;
+            }
+    }
 }
 
 .cbotonp {
@@ -34,4 +35,8 @@
                 transition: .5s;
             }
     }
+}
+
+@media screen and (max-width: 600px) {
+
 }

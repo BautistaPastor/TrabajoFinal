@@ -2,53 +2,52 @@ body header {
   display: block;
   border-bottom: 1px rgb(194, 181, 181) solid;
 }
-body a .imgropita {
+body header a .imgropita {
   height: 3em;
   width: 3em;
 }
-body .direcc {
-  padding-bottom: 1em;
+body header .direcc {
+  padding-bottom: 10px;
   margin: 0.3em;
   display: inline;
   text-decoration: none;
   color: black;
 }
-body .direcc:hover {
+body header .direcc:hover {
   margin-left: 12px;
   margin-right: 12px;
   transition: 1.5s;
 }
-body .direcc:not(:hover) {
+body header .direcc:not(:hover) {
   margin-left: 0;
   margin-right: 0;
   transition: 1s;
 }
-body a .ropita {
-  padding-bottom: 10px;
-  margin: 0.3em;
-  display: inline;
-}
-body a .ropita:hover {
-  margin-left: 12px;
-  margin-right: 12px;
-  transition: 1.5s;
-}
-body a .ropita:not(:hover) {
-  margin-left: 0;
-  margin-right: 0;
-  transition: 1s;
-}
-body .gglmps {
+body header .gglmps {
   height: 3em;
   width: 3em;
 }
-body .ropita {
+body header .ropita {
   padding-bottom: 10px;
   margin: 0.3em;
   display: inline;
   text-decoration: none;
 }
 
+@media screen and (max-width: 600px) {
+  body header {
+    font-size: 13px;
+    width: 100%;
+  }
+  body header .gglmps {
+    display: none;
+  }
+  body header .direcc:hover, body header .direcc:not(:hover) {
+    margin-left: 0;
+    margin-right: 0;
+    transition: none;
+  }
+}
 body {
   background-color: rgb(245, 245, 209) !important;
   display: flex;
@@ -91,6 +90,21 @@ footer .grid .derechos p {
   color: rgb(145, 145, 145);
 }
 
+@media screen and (max-width: 600px) {
+  footer {
+    width: 100%;
+    position: relative;
+    top: 91px;
+  }
+  footer .grid {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(1, 60px);
+  }
+  footer .grid .redes p {
+    margin-top: 10px;
+  }
+}
 body main {
   border: 2px #bba5a7 solid;
   width: 500px;
@@ -133,6 +147,25 @@ body .figura-centrada {
   margin-top: 100px;
 }
 
+@media screen and (max-width: 600px) {
+  body main {
+    height: 76%;
+    width: 76%;
+    display: grid;
+    grid-template-rows: repeat(2, 140px);
+    grid-template-rows: repeat(none);
+  }
+  body main .ctxtp .txt-principal {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body main .cbuzo {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: 14px;
+  }
+}
 .tit {
   height: 5em;
   border-bottom: 1px rgb(194, 181, 181) solid;
@@ -265,7 +298,7 @@ body .figura-centrada {
   text-align: center;
 }
 .cboton .boton {
-  margin: 200px;
+  margin: auto;
   border: 1px solid black;
 }
 .cboton .boton:hover {

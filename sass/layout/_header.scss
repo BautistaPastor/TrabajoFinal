@@ -2,7 +2,6 @@ body {
         header {
             display: block;
             border-bottom: 1px rgb(194, 181, 181) solid;
-        }
         a {
             .imgropita {
                 height: 3em;
@@ -10,7 +9,7 @@ body {
             }
         }
         .direcc {
-            padding-bottom: 1em;
+            padding-bottom: 10px;
             margin: 0.3em;
             display: inline;
             text-decoration: none;
@@ -28,25 +27,6 @@ body {
                 transition: 1s;
             }
         }
-        a {
-        .ropita {
-            padding-bottom: 10px;
-            margin: 0.3em;
-            display: inline;
-        
-            &:hover {
-                margin-left: 12px;
-                margin-right: 12px;
-                transition: 1.5s;
-            }
-
-            &:not(:hover) {
-                margin-left: 0;
-                margin-right: 0;
-                transition: 1s;
-            }
-        }
-        }
         .gglmps {
             height: 3em;
             width: 3em;
@@ -57,4 +37,25 @@ body {
             display: inline;
             text-decoration: none;
         }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        header {
+            font-size: 13px;
+            width: 100%;
+            .gglmps {
+                display: none;
+            }
+            .direcc {
+                &:hover,
+                &:not(:hover) {
+                  margin-left: 0;
+                  margin-right: 0;
+                  transition: none; 
+                }
+              }
+        }
+    }
 }

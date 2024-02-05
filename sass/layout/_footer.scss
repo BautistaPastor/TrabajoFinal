@@ -33,3 +33,21 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    footer {
+        width: 100%;
+        position: relative;
+        top: 91px;
+        .grid {
+            display: grid;
+            grid-template-columns: none;
+            grid-template-rows: repeat(1, 60px);
+            .redes {
+                p {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
