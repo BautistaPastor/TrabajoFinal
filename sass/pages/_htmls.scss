@@ -47,3 +47,27 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .s0w {
+        display: grid;
+        grid-template-columns: repeat(1, 210px);
+        grid-template-rows: repeat(4, 375px);
+        position: relative;
+        left: -4%;
+        row-gap: 10px;
+    }
+    .titulo-p {
+        height: 3em;
+        border-bottom: 1px rgb(194, 181, 181) solid;
+        text-align: center;
+        align-items: center;
+        .texto-p {
+            text-align: center;
+            font-size: 1.4em;
+            position: relative;
+            top: 5px;
+            right: 37px;
+        }
+    }
+}

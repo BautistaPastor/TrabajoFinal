@@ -20,3 +20,59 @@
     border: 1px solid black;
     
 }
+
+@media screen and (max-width: 600px) {
+    .srem {
+        font-size: 14px;
+        width: 290px;
+        height: 180px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 58px;
+        position: relative;
+        top: 65px;
+        right: 30px;
+        border: 1px solid black;
+        div {
+            margin: auto;
+            text-align: center;
+            align-items: center;
+            p {
+                margin-top: auto;
+                text-align: center;
+                align-items: center;
+            }
+        }
+    }
+    .sremp {
+        font-size: 14px;
+        width: 290px;
+        height: 180px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 270px;
+        border: 1px solid black;
+        div {
+            margin: auto;
+            text-align: center;
+            align-items: center;
+            p {
+                margin-top: auto;
+                text-align: center;
+                align-items: center;
+            }
+        }   
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sremp {
+        position: relative;
+        bottom: 90px;
+        right: 51px;
+        width: 230px;
+    }
+}
