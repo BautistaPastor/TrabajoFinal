@@ -50,15 +50,21 @@
 
 @media screen and (max-width: 600px) {
     .s0w {
-        display: grid;
-        grid-template-columns: repeat(1, 210px);
-        grid-template-rows: repeat(4, 375px);
-        position: relative;
-        left: -4%;
-        row-gap: 10px;
+        display: flex;
+        flex-direction: column;
+        .d1w {
+            display: flex;
+            flex-direction: column;
+            height: 200px;
+            width: 105px;
+            .ft1w {
+                width: 70px;
+            }
+        }
     }
     .titulo-p {
         height: 3em;
+        width: 85%;
         border-bottom: 1px rgb(194, 181, 181) solid;
         text-align: center;
         align-items: center;

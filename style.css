@@ -37,7 +37,7 @@ body header .ropita {
 @media screen and (max-width: 600px) {
   body header {
     font-size: 13px;
-    width: 100%;
+    width: 85%;
   }
   body header .gglmps {
     display: none;
@@ -109,10 +109,11 @@ body main {
   border: 2px #bba5a7 solid;
   width: 500px;
   height: 200px;
-  margin: auto;
-  margin-top: 8em;
-  text-align: center;
+  margin-top: 9em;
+  margin-right: auto;
+  margin-left: auto;
   align-items: center;
+  text-align: center;
   display: flex;
 }
 body main .ctxtp {
@@ -133,8 +134,8 @@ body main .ctxtp .txt-principal:last-child {
   margin-top: -50px;
 }
 body main .cbuzo {
-  text-align: center;
   align-items: center;
+  text-align: center;
   margin-right: 20px;
 }
 body figure img {
@@ -190,13 +191,13 @@ body .figura-centrada {
   margin-top: 3em;
   margin-left: 1em;
   margin-right: 1em;
-  border: 1px black solid;
+  border: 1px solid black;
   border-radius: 1.5em;
 }
 .s0 .d1 .ft1 {
   height: 160px;
   margin-top: 10px;
-  border: 1px black solid;
+  border: 1px solid black;
   margin: auto;
   position: relative;
   top: 7px;
@@ -335,15 +336,21 @@ body .figura-centrada {
 
 @media screen and (max-width: 600px) {
   .s0w {
-    display: grid;
-    grid-template-columns: repeat(1, 210px);
-    grid-template-rows: repeat(4, 375px);
-    position: relative;
-    left: -4%;
-    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .s0w .d1w {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 105px;
+  }
+  .s0w .d1w .ft1w {
+    width: 70px;
   }
   .titulo-p {
     height: 3em;
+    width: 85%;
     border-bottom: 1px rgb(194, 181, 181) solid;
     text-align: center;
     align-items: center;
@@ -419,8 +426,8 @@ body .figura-centrada {
 @media screen and ((max-width: 600px)) {
   .cbotonh {
     position: relative;
-    bottom: 200px;
-    right: 51px;
+    bottom: 525px;
+    right: 45px;
   }
 }
 .srem {
@@ -476,9 +483,9 @@ body .figura-centrada {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
     position: relative;
     top: 270px;
-    border: 1px solid black;
   }
   .sremp div {
     margin: auto;
@@ -494,7 +501,7 @@ body .figura-centrada {
 @media screen and (max-width: 600px) {
   .sremp {
     position: relative;
-    bottom: 90px;
+    bottom: 190px;
     right: 51px;
     width: 230px;
   }

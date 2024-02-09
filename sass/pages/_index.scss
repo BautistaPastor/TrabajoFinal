@@ -1,16 +1,26 @@
+@mixin centrar(){
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@mixin align {
+    align-items: center;
+    text-align: center;
+}
+
 body {
     main {
         border: 2px #bba5a7 solid;
         width: 500px;
         height: 200px;
-        margin: auto;
-        margin-top: 8em;
-        text-align: center;
-        align-items: center;
+        margin-top: 9em;
+        //text-align: center;
+        //align-items: center;
+        @include centrar();
+        @include align();
         display: flex;
             .ctxtp {
-                align-items: center;
-                text-align: center;
+                @include align();
                 padding: 0%;
                 .txt-principal {
                     text-align: center;
@@ -26,8 +36,7 @@ body {
                 }
             }
             .cbuzo {
-                text-align: center;
-                align-items: center;
+                @include align();
                 margin-right: 20px;
             }
     }
@@ -54,8 +63,7 @@ body {
             grid-template-rows: repeat(none);
             .ctxtp {
                 .txt-principal {
-                    margin-right: auto;
-                    margin-left: auto;
+                    @include centrar();
                 }
             }
             .cbuzo {
