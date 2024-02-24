@@ -1,2 +1,1 @@
 Preentregable #3 de Coderhouse. Pastor Bautista. 
-Tengo una duda a resolver, y es que en la carpeta HTML, todos los archivos (menos productos.html) cuentan con un html y sass identico, diferenciandose solamente en las imagenes y descripción de la ropa. Para hacer las Media Query, primero traté de ordenar los archivos de forma vertical con display: grid;, pero no me gustó y usé flexbox. Estuve dos o tres días tratando de averiguar porque mis elementos desaparecen al aplicarles ese estilo, y quisiera, por favor, que me ayuden. Muchas gracias.
